@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navitem{
+   margin-right: 10px;
+}
+a:link{
+    color:black;
+    text-decoration: none;
+    
+}
+a:visited{
+    color:black;
+   
+}
+a:hover{
+    color:black;
+    
+}
+a:active{
+    color:black;
+    
+}
+
+.searchbar{
+    display: flex;
+    height: 30px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 600px;
+    max-width: 584px;
+    margin-top: 5px;
+    padding: 5px;
+    justify-content: center;
+}
+.searchbutton{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    
+
+
+}
+
+.Logo {
+    display: flex;
+    align-content: center;
+    height: 92px;
+    width: 282;
+    justify-content: center;
+  } 
+
+.div-central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line_adv{
+    border-bottom: 1px solid #ebebeb;
+}
+.h3-advanced{
+    color: #d93025;
+    height: 22px;
+    font-family: arial,sans-serif;
+}
+
+
+.h4-advanced{
+    color: #333;
+    height: 17px;
+}
+.div-advanced{
+    margin: 20px;
+}
+
+.div-advanced-search-table{
+    margin: 20px;
+
+}
+
+.searchbar-sm {
+    border-radius: 1px;
+    display: block;
+    margin: 7px;
+    padding: 8px;
+    width: 500px;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+  }
+
+
+  .text-input-table {
+    margin: 20px 45px;
+  }
+  .text-input-table tr {
+    font-size: 10pt;
+  }
+  .text-input-table tr td .searchbutton {
+    float: right;
+    background-color: #4D90FE;
+    color: #FFFFFF;
+  }
+.searchbutton-advanced{
+    height: 30px;
+    min-width: 120px;
+    background-color: #357ae8;
+    margin: 7px;
+    padding: 8px;
+    border: 1px solid #2f5bb7;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 2px;
+    color: white;
+}
